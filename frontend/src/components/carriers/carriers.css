@@ -1,0 +1,46 @@
+.showRole {
+    display: flex;
+    
+    gap: 15px;
+  }
+  
+  .showRole .red {
+    background-color: #007e9e;
+  }
+  
+  .showRole .blue {
+    background-color: #0062ff;
+  }
+  
+  .showRole .green {
+    background-color: #18cd5e;
+  }
+  
+  .showRole .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .showRole .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .showRole .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .showRole .card:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+ 

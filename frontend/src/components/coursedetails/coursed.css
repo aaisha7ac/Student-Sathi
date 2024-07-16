@@ -1,0 +1,58 @@
+.maincourse{
+    display:flex;
+}
+.courseh1{
+    text-align:center;
+    
+}
+.piccourse{
+    flex: 0 0 45%;
+}
+.piccourse img {
+    /* width: 100%; /* Ensures the image fills its container */
+    /* border-radius: 10px; /* Adds rounded corners to the image */
+    margin-left: 80px;
+    width: 500px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+     /* Makes the image circular */
+   /* overflow: hidden; /* Ensures the image stays within the circular boundary */
+}
+.desc {
+    flex: 0 0 45%; /* Flex item takes up 45% of the available space */
+    padding: 0 20px; /* Adds some padding to the description */
+}
+.desc p {
+    text-align: justify; /* Justify the text */
+    font-size: 18px; /* Set font size */
+    color: black; /* Set text color */
+}
+#disa1,#disa2 {
+    display: inline-block;    
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#disa1{
+    margin-top:20px;
+    margin-left:38%;
+    margin-bottom:5%;
+}
+#disa2{
+    margin-left:15%;
+    margin-bottom:5%;
+}
+
+#disa1:hover {
+background-color:#48d232;
+color:black;
+}
+#disa2:hover{
+    background-color:#48d232;
+    color:black;
+}
+
+
